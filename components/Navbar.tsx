@@ -115,6 +115,7 @@ const CustomButton = styled(Button)`
 
 const NavItemList = styled.div`
   display: flex;
+  align-items: center;
   list-style: none;
 
   ${media('<desktop')} {

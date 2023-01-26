@@ -14,17 +14,17 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>Syarqi Honey, madu murni Timor yang kaya manfaat</CustomOverTitle>
+        <CustomOverTitle>Sehat tidak harus mahal</CustomOverTitle>
         <Heading>Syarqi Honey, madu murni Timor yang kaya manfaat</Heading>
         <Description>
           Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT,
-          Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat.
+          Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat bagi berbagai macam penyakit.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Dapatkan Segera <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          <NextLink href="#Manfaat" passHref>
             <Button transparent>
               Manfaat <span>&rarr;</span>
             </Button>

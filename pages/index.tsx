@@ -20,7 +20,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="Temukan keaslian madu alami dari hutan pedalaman pulau Timor NTT dengan Syarqi Honey. Madu kami kaya akan manfaat untuk kesehatan dan obat. Pesan sekarang dan rasakan manfaatnya."
         />
       </Head>
       <HomepageWrapper>

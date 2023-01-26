@@ -22,12 +22,12 @@ export default function Cta() {
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Dapatkan segera <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Manfaat <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
@@ -68,7 +68,7 @@ const Stack = styled.div`
 
 const OutlinedButton = styled(Button)`
   border: 1px solid rgb(var(--textSecondary));
-  color: rgb(var(--textSecondary));
+  color: rgb(var(--textPrimary));
 `;
 
 const CtaWrapper = styled.div`

@@ -9,24 +9,6 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Ganti gula-mu dengan Syarqi Honey!',
-    description:
-      '<p>Gantikan asupan gula Anda dengan Syarqi Honey, Dengan Syarqi Honey, Anda dapat menikmati rasa manis alami tanpa khawatir tentang efek negatif dari gula tambahan.</p>',
-    imageUrl: '/honey-bottle-1.png',
-    baseColor: '249,82,120',
-    secondColor: '221,9,57',
-    icon: '🍯',
-  },
-  {
-    title: 'Another amazing feature',
-    description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/honey-bottle-2.jpg',
-    baseColor: '57,148,224',
-    secondColor: '99,172,232',
-    icon: '💛',
-  },
-  {
     title: 'Madu Syarqi 100% asli',
     description:
       '<p>Madu Syarqi Honey adalah madu yang 100% asli dan tidak tercampur dengan bahan lain. Kami menjaga kemurnian madu dengan mengumpulkan madu dari hutan pedalaman pulau Timor NTT dengan metode tradisional.</p>',
@@ -34,6 +16,25 @@ const TABS = [
     baseColor: '88,193,132',
     secondColor: '124,207,158',
     icon: '🐝',
+  },
+  {
+    title: 'Kandungan nutrisi yang tinggi',
+    description:
+      '<p>Madu Syarqi Honey kaya akan nutrisi, seperti kalsium, potassium, magnesium, vitamin B, dan vitamin C. Dengan kandungan nutrisi ini, madu Syarqi Honey dapat membantu menjaga kesehatan tubuh anda agar lebih fit dan semangat beribadah.</p>',
+    imageUrl: '/honey-bottle-2.jpg',
+    baseColor: '57,148,224',
+    secondColor: '99,172,232',
+    icon: '😋',
+  },
+
+  {
+    title: 'Ganti gula-mu dengan Syarqi Honey!',
+    description:
+      '<p>Gantikan asupan gula Anda dengan Syarqi Honey, Dengan Syarqi Honey, Anda dapat menikmati rasa manis alami tanpa khawatir tentang efek negatif dari gula tambahan.</p>',
+    imageUrl: '/honey-bottle-1.png',
+    baseColor: '249,82,120',
+    secondColor: '221,9,57',
+    icon: '🍯',
   },
 ];
 
@@ -77,7 +78,7 @@ export default function FeaturesGallery() {
   }
 
   return (
-    <FeaturesGalleryWrapper>
+    <FeaturesGalleryWrapper id="Manfaat">
       <Content>
         <OverTitle>Manfaat</OverTitle>
         <SectionTitle>Apa saja manfaat Madu Syarqi</SectionTitle>

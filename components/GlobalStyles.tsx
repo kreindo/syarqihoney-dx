@@ -12,18 +12,18 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 
 //palette from logo
-/* rgb(255, 217, 0) 252,244,0, rgb(255, 201, 140) 255,171,75, #000000 0,0,0,0, #FEFEFE 254,254,254*/
-
+/* rgb(255, 217, 0) rgb(112, 95, 0) 252,244,0, rgb(255, 201, 140) 255,171,75, #000000 0,0,0,0, #FEFEFE 254,254,254*/
+/* rgb(10,18,30) rgb(171, 194, 112) rgb(254, 200, 104) rgb(253, 167, 105) rgb(71, 60, 51)*/
 
 .next-light-theme {
-  --background: 255, 255,255;
-  --secondBackground: 255, 201, 140;
+  --background: 254, 200, 104;
+  --secondBackground: 255, 217, 0;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
-  --primary: 22,115,255; 
-  --secondary: 10,18,30;
+  --primary: 253, 167, 105; 
+  --secondary: 71, 60, 51;
   --tertiary: 231,241,251;
-  --cardBackground: 255, 201, 140;
+  --cardBackground: 255,255,254;
   --inputBackground: 255,255,255;
   --navbarBackground: 255, 217, 0;
   --modalBackground: 251,251,253;
@@ -123,7 +123,7 @@ body {
 }
 
 svg {
-  color: rgb(var(--text));
+  color: rgb(71, 60, 51);
 }
 
 /* A elements that don't have a class get default styles */
