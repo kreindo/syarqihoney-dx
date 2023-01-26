@@ -5,33 +5,35 @@ import Collapse from 'components/Collapse';
 import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
-import ThreeLayersCircle from 'components/ThreeLayersCircle';
 import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Ganti gula-mu dengan Syarqi Honey!',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
+      '<p>Gantikan asupan gula Anda dengan Syarqi Honey, Dengan Syarqi Honey, Anda dapat menikmati rasa manis alami tanpa khawatir tentang efek negatif dari gula tambahan.</p>',
+    imageUrl: '/honey-bottle-1.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
+    icon: '🍯',
   },
   {
     title: 'Another amazing feature',
     description:
       '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
+    imageUrl: '/honey-bottle-2.jpg',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
+    icon: '💛',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Madu Syarqi 100% asli',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
+      '<p>Madu Syarqi Honey adalah madu yang 100% asli dan tidak tercampur dengan bahan lain. Kami menjaga kemurnian madu dengan mengumpulkan madu dari hutan pedalaman pulau Timor NTT dengan metode tradisional.</p>',
+    imageUrl: '/honey-bottle-3.jpg',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
+    icon: '🐝',
   },
 ];
 
@@ -56,7 +58,8 @@ export default function FeaturesGallery() {
       <Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
         <TabTitleContainer>
           <CircleContainer>
-            <ThreeLayersCircle baseColor={isActive ? 'transparent' : singleTab.baseColor} secondColor={singleTab.secondColor} />
+            {/* <ThreeLayersCircle baseColor={isActive ? 'transparent' : singleTab.baseColor} secondColor={singleTab.secondColor} /> */}
+            {singleTab.icon}
           </CircleContainer>
           <h4>{singleTab.title}</h4>
         </TabTitleContainer>
@@ -76,8 +79,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        <OverTitle>Manfaat</OverTitle>
+        <SectionTitle>Apa saja manfaat Madu Syarqi</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>
@@ -156,7 +159,7 @@ const ImageContainer = styled.div<{ isActive: boolean }>`
 const Tab = styled.div<{ isActive: boolean }>`
   display: flex;
   flex-direction: column;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2rem;
   background: rgb(var(--cardBackground));
   box-shadow: var(--shadow-md);
   opacity: ${(p) => (p.isActive ? 1 : 0.6)};
@@ -187,7 +190,7 @@ const TabContent = styled.div`
   font-weight: normal;
   margin-top: 0.5rem;
   font-size: 1.5rem;
-  padding-left: calc(5rem + 1.5rem);
+  padding-left: calc(3rem + 1.5rem);
 
   ${media('<=tablet')} {
     padding-left: calc(4rem + 1.25rem);
@@ -199,7 +202,8 @@ const TabContent = styled.div`
 `;
 
 const CircleContainer = styled.div`
-  flex: 0 calc(5rem + 1.5rem);
+  flex: 0 calc(3rem + 1.5rem);
+  font-size: 24px;
 
   ${media('<=tablet')} {
     flex: 0 calc(4rem + 1.25rem);

@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Syarqi Honey, madu murni Timor yang kaya manfaat</CustomOverTitle>
+        <Heading>Syarqi Honey, madu murni Timor yang kaya manfaat</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Rasakan kekayaan manfaat dari madu murni Timor dengan Syarqi Honey. Madu asli yang di panen dari hutan pedalaman pulau Timor NTT,
+          Syarqi Honey kaya akan kandungan nutrisi yang baik untuk kesehatan dan obat.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Dapatkan Segera <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Manfaat <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
@@ -96,6 +96,7 @@ const CustomOverTitle = styled(OverTitle)`
 `;
 
 const Heading = styled.h1`
+  font-family: 'Caveat';
   font-size: 7.2rem;
   font-weight: bold;
   line-height: 1.1;

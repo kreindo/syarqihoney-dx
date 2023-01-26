@@ -21,14 +21,19 @@ export default function WaveCta() {
       </svg>
       <CtaWrapper>
         <Container>
-          <Title>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</Title>
+          <Title>Rasakan manfaat dari madu Syarqi Honey yang 100% asli dan kaya manfaat.</Title>
           <CustomButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
-              Subscribe to the newsletter <span>&rarr;</span>
+              Hubungi kami <span>&rarr;</span>
             </Button>
-            <NextLink href="/features" passHref>
+            <NextLink href="https://m.me/syarqihoney" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Facebook <span>&rarr;</span>
+              </OutlinedButton>
+            </NextLink>
+            <NextLink href="https://www.instagram.com/invites/contact/?i=6u0dxffmtq1r&utm_content=khr2xcp" passHref>
+              <OutlinedButton transparent>
+                Instagram <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </CustomButtonGroup>

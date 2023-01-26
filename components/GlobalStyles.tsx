@@ -11,17 +11,21 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
+//palette from logo
+/* rgb(255, 217, 0) 252,244,0, rgb(255, 201, 140) 255,171,75, #000000 0,0,0,0, #FEFEFE 254,254,254*/
+
+
 .next-light-theme {
-  --background: 251,251,253;
-  --secondBackground: 255,255,255;
+  --background: 255, 255,255;
+  --secondBackground: 255, 201, 140;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
   --primary: 22,115,255; 
   --secondary: 10,18,30;
   --tertiary: 231,241,251;
-  --cardBackground: 255,255,255;
+  --cardBackground: 255, 201, 140;
   --inputBackground: 255,255,255;
-  --navbarBackground: 255,255,255;
+  --navbarBackground: 255, 217, 0;
   --modalBackground: 251,251,253;
   --errorColor: 207,34,46;
   --logoColor: #243A5A;
@@ -42,7 +46,6 @@ export const GlobalStyle = createGlobalStyle`
   --errorColor: 207,34,46;
   --logoColor: #fff;
 }
-
 :root {
   --font: 'Poppins', sans-serif;
   
