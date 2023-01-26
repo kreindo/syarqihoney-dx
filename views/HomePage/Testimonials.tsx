@@ -10,30 +10,57 @@ import { media } from 'utils/media';
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Mantap enak KK, Aku suka manisnya 👍👍👍💪 sukses selalu kak.`,
     author: {
-      name: 'Clyde Edwards',
-      title: 'Very Serious Man',
-      avatarUrl: '/testimonials/author-photo-1.jpeg',
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Semoga sukses yah, Madu NTT mantap, Beda dengan madu-madu pulau lain.`,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
-      avatarUrl: '/testimonials/author-photo-2.jpeg',
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Madu asli 100% mantap 👍👍, nanti pasti order lagi!.`,
     author: {
-      name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
-      avatarUrl: '/testimonials/author-photo-3.jpeg',
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
+    },
+  },
+  {
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Madu sudah sampe kemaren lusa, Enak 🙏😊.`,
+    author: {
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
+    },
+  },
+  {
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Anak saya jga konsumsi madu, kemarin2 minum madu merk yang ada di toko2 tapi ga suka, Alhamdulillah kalau minum yang asli begini dia doyan.`,
+    author: {
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
+    },
+  },
+  {
+    companyLogoUrl: '/testimonials/whatsapp-logo.png',
+    content: `Madu asli 100% mantap 👍👍, nanti pasti order lagi!`,
+    author: {
+      name: 'Fulan/ah',
+      title: 'Pelanggan Whatsapp',
+      avatarUrl: '/testimonials/blank-profile.svg',
     },
   },
 ];
@@ -49,8 +76,8 @@ export default function Testimonials() {
               <TestimonialCard>
                 <NextImage
                   src={singleTestimonial.companyLogoUrl}
-                  alt={`${singleTestimonial.author.name}'s company logo`}
-                  width={200}
+                  alt={`${singleTestimonial.author.name}'s whatsapp`}
+                  width={40}
                   height={40}
                 />
                 <Content>“{singleTestimonial.content}”</Content>
