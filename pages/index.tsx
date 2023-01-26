@@ -27,24 +27,24 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           {/* <Partners /> */}
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Kenapa Madu Syarqi?." overTitle="Kenapa?">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Madu Syarqi Honey adalah madu murni yang dihasilkan dari hutan pedalaman pulau Timor NTT. Kami mengutamakan kualitas dan
+              keaslian produk kami, sehingga madu yang kami tawarkan adalah madu yang 100% alami dan tidak mengandung bahan pengawet atau
+              pengatur rasa. Madu Syarqi Honey kaya akan nutrisi yang baik untuk kesehatan, seperti antioksidan, flavonoid, dan asam amino.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Madu penuh khasiat" overTitle="Khasiat" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Madu ini juga memiliki sifat anti-inflamasi dan antibakteri yang membuat madu ini dapat digunakan untuk mengobati berbagai
+              jenis penyakit, seperti luka, sakit tenggorokan, sakit perut, dan lainnya. Madu Syarqi Honey juga sangat baik digunakan
+              sebagai pengganti gula dalam minuman atau makanan, karena madu memiliki indeks glikemik yang lebih rendah dibandingkan dengan
+              gula biasa.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Madu sebagai antibakteri</li>
+              <li>Madu sebagai pengganti gula</li>
+              <li>Dan masih banyak lagi...</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
