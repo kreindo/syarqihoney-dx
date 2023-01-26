@@ -20,7 +20,6 @@ const footerItems: FooterItems = [
   {
     title: 'Product',
     items: [
-      { title: 'Features', href: '/features' },
       { title: 'Something', href: '/something' },
       { title: 'Something else', href: '/something-else' },
       { title: 'And something else', href: '/and-something-else' },
@@ -38,7 +37,6 @@ const footerItems: FooterItems = [
   {
     title: 'Something',
     items: [
-      { title: 'Features2', href: '/features2' },
       { title: 'Something2', href: '/something2' },
       { title: 'Something else2', href: '/something-else2' },
       { title: 'And something else2', href: '/and-something-else2' },
