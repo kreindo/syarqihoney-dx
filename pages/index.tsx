@@ -27,14 +27,14 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           {/* <Partners /> */}
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Kenapa Madu Syarqi?." overTitle="Kenapa?">
+          <BasicSection imageUrl="/honey-harvest-timor.jpg" title="Kenapa Madu Syarqi?." overTitle="Kenapa?">
             <p>
               Madu Syarqi Honey adalah madu murni yang dihasilkan dari hutan pedalaman pulau Timor NTT. Kami mengutamakan kualitas dan
               keaslian produk kami, sehingga madu yang kami tawarkan adalah madu yang 100% alami dan tidak mengandung bahan pengawet atau
               pengatur rasa. Madu Syarqi Honey kaya akan nutrisi yang baik untuk kesehatan, seperti antioksidan, flavonoid, dan asam amino.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Madu penuh khasiat" overTitle="Khasiat" reversed>
+          <BasicSection imageUrl="/honey-bottle-onhand-1.jpg" title="Madu penuh khasiat" overTitle="Khasiat" reversed>
             <p>
               Madu ini juga memiliki sifat anti-inflamasi dan antibakteri yang membuat madu ini dapat digunakan untuk mengobati berbagai
               jenis penyakit, seperti luka, sakit tenggorokan, sakit perut, dan lainnya. Madu Syarqi Honey juga sangat baik digunakan
